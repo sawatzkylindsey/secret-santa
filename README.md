@@ -1,6 +1,17 @@
 secret-santa
 ------------
 
+### Run
+
+    # Test the secret santa message.
+    python message-tester.py -v TEXT_BELT_API_KEY NUMBER
+
+    # Test the recipiants.
+    python sms-tester.py -v TEXT_BELT_API_KEY example.config
+
+    # Perform the actual secret santa selection and message the assignment.
+    python secret-santa.py -v TEXT_BELT_API_KEY example.config --dry-run
+
 
 ### Setup
 
